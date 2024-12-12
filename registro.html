@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleR.css">
+    <title>Registro</title>
+</head>
+<body>
+
+
+    <header>
+        <nav>            
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="nosotros.html" class="nav-link">Sobre nosotros</a>
+            <a href="login.html" class="nav-link">Iniciar sesión</a>
+            <a href="registro.html" class="nav-link">Registrarse</a>
+        </nav>
+        <img class="logotipo" src="logo1.png" alt="">
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial';
+            background-image: url(fondo.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            height: 100vh;
+            overflow: hidden; /* Asegura que las animaciones no desborden la pantalla */
+        }
+        
+        header {
+            background-color: #1b0b0b23;
+            text-align: center;
+            padding: 25px;
+            margin-top: -595px;
+        }
+        
+        nav a {
+            display: inline-block;
+            text-decoration: none;
+            color: #000000;
+            padding: 0 20px;
+            transition: 1s;
+            font-size: 20px;
+        
+        }
+        
+        nav a:hover {
+            background: #ffd1b6;
+            color: #000;
+        }
+        
+        .nav {
+            margin-top: -55px;
+        }
+        
+        .logotipo {
+            width: 55px;
+            height: 55px;
+            border-radius: 55px;
+            margin-top: -900px;
+            margin-left: -1300px;
+        }</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="registri">
+        <form action="/submit" method="POST" class="register-form">
+
+    <label for="nombres">Nombre</label>
+    <input class="controls" type="text" id="fullname" name="fullname" placeholder="Ingresa tu nombre completo" required>
+    <label for="apellidos">Apellido</label>
+    <input class="controls" type="text" id="fullname" name="fullname" placeholder="Ingresa tu Apellido completo" required>
+    <label for="correo">Correo Electrónico</label>
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su correo" required>
+    <label for="contrasena">Contraseña</label>
+    <input class="controls" type="password" name="contrasena" id="contrasena" placeholder="Ingrese su contraseña" required>
+
+    <p>Estoy de acuerdo con  <a href="#">Términos y Condiciones</a></p>
+
+    <input class="botons" type="submit" value="Registrar">
+    <p><a href="login.html">¿Ya tengo cuenta?</a></p>
+    </form>
+</section>
+
+
+</body>
+</html>
